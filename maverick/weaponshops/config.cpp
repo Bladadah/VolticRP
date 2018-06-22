@@ -85,10 +85,11 @@ class maverick_weaponshop_cfg {
 		   };
 
 		   items[] = {
-				{ "Binocular", 250, "true", ""},
-				{ "ItemGPS", 500, "true", ""},
+				{ "Binocular", 100, "true", ""},
+				{ "ItemGPS", 100, "true", ""},
 				{ "ItemMap", 10, "true", ""},
 				{ "ItemCompass", 10, "true", ""},
+				{"tf_anprc152", 15, "true", ""},
 				{ "KA_TL_122_flashlight", 80, "true", ""}
 		   };
 	   };
@@ -131,14 +132,16 @@ class maverick_weaponshop_cfg {
 				{"tf_anprc152", 15, "true", ""},
 				{"CG_TELBAT", 35, "true", ""},
 				{"CSW_M26C", 50, "true", ""},
-				{"RH_kimber_nw", 200, "true", ""},
-				{"RH_usp", 250, "true", ""},
-				{"RH_g19", 250, "true", ""},
-				{"CSW_M870", 450, "true", ""},
+				{"RH_kimber_nw", 100, "true", ""},
+				{"RH_usp", 100, "true", ""},
+				{"RH_g19", 100, "true", ""},
+				{"RH_Hk416s", 100, "true", ""},
+				{"RH_Hk416", 100, "true", ""},
+				{"CSW_M870", 100, "true", ""},
 				
-				{"RH_M4A1_ris", 4260, "true", ""},
-				{"hlc_rifle_Colt727", 3850, "true", ""},
-				{"KA_RO991", 2650, "true", ""}
+				{"RH_M4A1_ris", 100, "true", ""},
+				{"hlc_rifle_Colt727", 100, "true", ""},
+				{"KA_RO991", 100, "true", ""}
 			};
 
 			magazines[] = {
@@ -150,7 +153,7 @@ class maverick_weaponshop_cfg {
 				{"RH_17Rnd_9x19_g17", 10, "true", ""},
 				{"CSW_M870_8Rnd_buck", 10, "true", ""},
 				{"KA_32Rnd_9x19_FMJ_Mag", 10, "true", ""},
-				{"hlc_rifle_Colt727", 3850, "true", ""},
+				{"RH_30Rnd_556x45_M855A1", 10, "true", ""},
 				{"RH_30Rnd_556x45_Mk262", 50, "true", ""}
 			};
 
@@ -174,15 +177,17 @@ class maverick_weaponshop_cfg {
 				{"tf_anprc152", 15, "true", ""},
 				{"CG_TELBAT", 35, "true", ""},
 				{"CSW_M26C", 50, "true", ""},
-				{"RH_kimber_nw", 200, "true", ""},
-				{"RH_usp", 250, "true", ""},
-				{"RH_g19", 250, "true", ""},
-				{"CSW_M870", 450, "true", ""},
+				{"RH_kimber_nw", 100, "true", ""},
+				{"RH_usp", 100, "true", ""},
+				{"RH_g19", 100, "true", ""},
+				{"CSW_M870", 100, "true", ""},
 				
 				
-				{"RH_M16A3", 3650, "true", ""},
-				{"hlc_rifle_Colt727", 3850, "true", ""},
-				{"RH_M4A1_ris", 4260, "true", ""}
+				{"RH_M16A3", 100, "true", ""},
+				{"hlc_rifle_Colt727", 100, "true", ""},
+				{"RH_Hk416s", 100, "true", ""},
+				{"RH_Hk416", 100, "true", ""},
+				{"RH_M4A1_ris", 100, "true", ""}
 			};
 
 			magazines[] = {
@@ -193,6 +198,7 @@ class maverick_weaponshop_cfg {
 				{"RH_12Rnd_45cal_usp", 10, "true", ""},
 				{"RH_17Rnd_9x19_g17", 10, "true", ""},
 				{"CSW_M870_8Rnd_buck", 10, "true", ""},
+				{"RH_30Rnd_556x45_M855A1", 10, "true", ""},
 				{"RH_30Rnd_556x45_Mk262", 50, "true", ""}
 			};
 
@@ -216,16 +222,18 @@ class maverick_weaponshop_cfg {
 				{"tf_anprc152", 15, "true", ""},
 				{"CG_TELBAT", 35, "true", ""},
 				{"CSW_M26C", 50, "true", ""},
-				{"RH_kimber_nw", 200, "true", ""},
-				{"RH_usp", 250, "true", ""},
-				{"RH_g19", 250, "true", ""},
-				{"CSW_M870", 450, "true", ""},
+				{"RH_kimber_nw", 100, "true", ""},
+				{"RH_usp", 100, "true", ""},
+				{"RH_g19", 100, "true", ""},
+				{"CSW_M870", 100, "true", ""},
 				
-				
-				{"RH_M16A3", 3650, "true", ""},
-				{"RH_M16A4", 3650, "true", ""},
-				{"hlc_rifle_Colt727", 3850, "true", ""},
-				{"RH_M4A1_ris", 4260, "true", ""}
+				{"RH_M16A4_m", 100, "true", ""},
+				{"RH_M16A3", 100, "true", ""},
+				{"RH_M16A4", 100, "true", ""},
+				{"hlc_rifle_Colt727", 100, "true", ""},
+				{"RH_Hk416s", 100, "true", ""},
+				{"RH_Hk416", 100, "true", ""},
+				{"RH_M4A1_ris", 100, "true", ""}
 			};
 
 			magazines[] = {
@@ -236,6 +244,7 @@ class maverick_weaponshop_cfg {
 				{"RH_12Rnd_45cal_usp", 10, "true", ""},
 				{"RH_17Rnd_9x19_g17", 10, "true", ""},
 				{"CSW_M870_8Rnd_buck", 10, "true", ""},
+				{"RH_30Rnd_556x45_M855A1", 10, "true", ""},
 				{"RH_30Rnd_556x45_Mk262", 50, "true", ""}
 			};
 
@@ -261,35 +270,55 @@ class maverick_weaponshop_cfg {
 				{"tf_anprc152", 15, "true", ""},
 				{"CG_TELBAT", 35, "true", ""},
 				{"CSW_M26C", 50, "true", ""},
-				{"RH_kimber_nw", 200, "true", ""},
-				{"RH_usp", 250, "true", ""},
-				{"RH_g19", 250, "true", ""},
-				{"CSW_M870", 450, "true", ""},
+				{"RH_kimber_nw", 100, "true", ""},
+				{"RH_usp", 100, "true", ""},
+				{"RH_g19", 100, "true", ""},
+				{"CSW_M870", 100, "true", ""},
 				
 				
-				{"RH_M16A3", 3650, "true", ""},
-				{"RH_M16A4", 3650, "true", ""},
-				{"RH_M16A6", 3650, "true", ""},
-				{"hlc_rifle_Colt727", 3850, "true", ""},
-				{"RH_M4A1_ris", 4260, "true", ""}
+				{"hlc_rifle_ACR_full_black", 100, "true", ""},
+				{"hlc_rifle_ACR_Carb_black", 100, "true", ""},
+				{"RH_M16A4_m", 100, "true", ""},
+				{"RH_M16A3", 100, "true", ""},
+				{"RH_M16A4", 100, "true", ""},
+				{"RH_M27IAR", 100, "true", ""},
+				{"KA_M1014", 100, "true", ""},
+				{"KA_KSG_Black", 100, "true", ""},
+				{"RH_M16A6", 100, "true", ""},
+				{"RH_Hk416s", 100, "true", ""},
+				{"RH_Hk416", 100, "true", ""},
+				{"hlc_rifle_Colt727", 100, "true", ""},
+				{"RH_M4A1_ris", 100, "true", ""}
 			};
 
 			magazines[] = {
 				{"CSW_Taser_Probe_Mag", 5, "true", ""},
+				{"6Rnd_M1014_buck", 5, "true", ""},
+				{"U_C_IDAP_Man_cargo_F", 5, "true", ""},
+				{"7Rndx2_KSG_buck_mag", 5, "true", ""},
 				{"nonlethal_swing", 10, "true", "Swing"},
 				{"KA_20Rnd_46x30_FMJ", 10, "true", ""},
 				{"RH_7Rnd_45cal_m1911", 10, "true", ""},
 				{"RH_12Rnd_45cal_usp", 10, "true", ""},
 				{"RH_17Rnd_9x19_g17", 10, "true", ""},
 				{"CSW_M870_8Rnd_buck", 10, "true", ""},
+				{"RH_30Rnd_556x45_M855A1", 10, "true", ""},
 				{"RH_30Rnd_556x45_Mk262", 50, "true", ""}
 			};
 
 			attachments[] = {
 				{ "RH_barska_rds", 70, "true", ""},
 				{ "RH_cmore", 70, "true", ""},
+				{ "RH_ta01nsn", 70, "true", ""},
+				{ "RH_ta31rmr", 70, "true", ""},
+				{ "RH_compM2l", 70, "true", ""},
 				{ "RH_x300", 50, "true", ""},
 				{ "RH_SFM952V", 50, "true", ""},
+				{ "optic_Hamr", 50, "true", ""},
+				{ "optic_AMS", 50, "true", ""},
+				{ "RH_leu_mk4", 50, "true", ""},
+				{ "optic_LRPS", 50, "true", ""},
+				{ "RH_accupoint", 50, "true", ""},
 				{ "RH_eothhs1", 50, "true", ""},
 				{ "RH_eotech553", 70, "true", ""}
 			};
@@ -307,36 +336,47 @@ class maverick_weaponshop_cfg {
 				{"tf_anprc152", 15, "true", ""},
 				{"CG_TELBAT", 35, "true", ""},
 				{"CSW_M26C", 50, "true", ""},
-				{"RH_M4sbr", 3850, "true", ""},
-				{"RH_M27IAR", 3850, "true", ""},
-				{"RH_M16A1gl", 3750, "true", ""},
-				{"RH_M4A6", 3750, "true", ""},
-				{"hlc_rifle_honeybadger", 4000, "true", ""},
-				{"hlc_rifle_g3a3", 4000, "true", ""},
-				{"RH_deagle", 1550, "true", ""},
-				{"CSW_FN57_Ballistic_Shield", 350, "true", ""},
-				{"KA_FMG9", 1450, "true", ""},
-				{"KA_KSG_Black", 2950, "true", ""},
-				{"bnae_trg42_virtual", 2950, "true", ""},
-				{"hlc_rifle_ACR_SBR_black", 3850, "true", ""},
-				{"KA_DSR50", 9250, "true", ""},
-				{"hlc_smg_mp510", 9250, "true", ""},
-				{"HandGrenade_Stone",500,"true","Flashbang"}
+				{"SMG_03_TR_black", 50, "true", ""},
+				{"RH_M4sbr", 100, "true", ""},
+				{"RH_M27IAR", 100, "true", ""},
+				{"RH_M16A1gl", 100, "true", ""},
+				{"RH_M4A6", 100, "true", ""},
+				{"hlc_rifle_honeybadger", 100, "true", ""},
+				{"hlc_rifle_g3a3", 100, "true", ""},
+				{"RH_deagle", 100, "true", ""},
+				{"CSW_FN57_Ballistic_Shield", 100, "true", ""},
+				{"KA_FMG9", 100, "true", ""},
+				{"KA_KSG_Black", 100, "true", ""},
+				{"bnae_trg42_virtual", 100, "true", ""},
+				{"hlc_rifle_ACR_SBR_black", 100, "true", ""},
+				{"KA_DSR50", 100, "true", ""},
+				{"hlc_rifle_awcovert_BL", 100, "true", ""},
+				{"hlc_rifle_ACR68_full_black", 100, "true", ""},
+				{"hlc_rifle_ACR68_aron", 100, "true", ""},
+				{"hlc_rifle_awmagnum_BL", 100, "true", ""},
+				{"hlc_rifle_m14sopmod", 100, "true", ""},
+				{"hlc_smg_mp510", 100, "true", ""},
+				{"HandGrenade_Stone",100,"true","Flashbang"}
 			};
 
 			magazines[] = {
 				{"CSW_Taser_Probe_Mag", 5, "true", ""},
 				{"nonlethal_swing", 10, "true", "Swing"},
 				{"29rnd_300BLK_STANAG", 10, "true", ""},
+				{"50Rnd_570x28_SMG_03", 10, "true", ""},
 				{"RH_30Rnd_556x45_Mk262", 10, "true", ""},
 				{"RH_60Rnd_556x45_Mk262", 10, "true", ""},
+				{"hlc_20Rnd_762x51_B_M14", 10, "true", ""},
+				{"hlc_30rnd_68x43_FMJ", 10, "true", ""},
 				{"hlc_20rnd_762x51_b_G3", 10, "true", ""},
 				{"CSW_20Rnd_57x28_SS190", 10, "true", ""},
 				{"RH_30Rnd_68x43_Match", 10, "true", ""},
 				{"RH_7Rnd_50_AE", 10, "true", ""},
+				{"hlc_5rnd_300WM_FMJ_AWM", 10, "true", ""},
 				{"5Rnd_338LM_Magazine", 10, "true", ""},
 				{"hlc_30rnd_556x45_EPR", 10, "true", ""},
 				{"7Rndx2_KSG_buck_mag", 10, "true", ""},
+				{"hlc_5rnd_300WM_FMJ_AWM", 10, "true", ""},
 				{"KA_33Rnd_9x19_FMJ_Mag", 10, "true", ""},
 				{"hlc_30Rnd_10mm_JHP_MP5", 10, "true", ""},
 				{"KA_DSR50_3Rnd_x2_M33_FMJ_Mag", 500, "true", ""}
@@ -344,20 +384,21 @@ class maverick_weaponshop_cfg {
 
 			attachments[] = {
 				{ "RH_barska_rds", 70, "true", ""},
+				{ "muzzle_snds_570", 70, "true", ""},
 				{ "RH_cmore", 70, "true", ""},
 				{ "RH_eotech553", 70, "true", ""},
-				{ "RH_compm4s", 170, "true", ""},
-				{ "RH_compM2", 170, "true", ""},
+				{ "RH_compm4s", 100, "true", ""},
+				{ "RH_compM2", 100, "true", ""},
 				{ "CSW_FN57_Barska", 50, "true", ""},
 				{ "acc_pointer_IR", 70, "true", ""},
 				{ "RH_SFM952V", 50, "true", ""},
 				{ "CSW_FN57_Shield_P", 50, "true", ""},
 				{ "CSW_FN57_laser_IR_2", 50, "true", ""},
-				{ "RH_m3lr", 1050, "true", ""},
-				{ "optic_Arco_blk_F", 1050, "true", ""},
-				{ "RH_ta31rmr_2D", 1050, "true", ""},
-				{ "optic_AMS", 1050, "true", ""},
-				{ "KA_SCAR_H_Laser_Black_GREEN",500,"true",""}
+				{ "RH_m3lr", 100, "true", ""},
+				{ "optic_Arco_blk_F", 100, "true", ""},
+				{ "RH_ta31rmr_2D", 100, "true", ""},
+				{ "optic_AMS", 100, "true", ""},
+				{ "KA_SCAR_H_Laser_Black_GREEN",100,"true",""}
 			};
 	   };
 
@@ -373,14 +414,14 @@ class maverick_weaponshop_cfg {
 				{"tf_anprc152", 15, "true", ""},
 				{"CG_TELBAT", 35, "true", ""},
 				{"CSW_M26C", 50, "true", ""},
-				{"hlc_rifle_RK62", 4000, "true", ""},
-				{"AN94_MTK83", 4000, "true", ""},
-				{"RH_bullb", 1350, "true", ""},
-				{"KA_SCAR_L_Black_AFG", 3950, "true", ""},
-				{"arifle_M8_F", 4850, "true", ""},
-				{"bnae_mk1_virtual", 1750, "true", ""},
-				{"CSW_M500", 1750, "true", ""},
-				{"HandGrenade_Stone",500,"true","Flashbang"}
+				{"hlc_rifle_RK62", 100, "true", ""},
+				{"AN94_MTK83", 100, "true", ""},
+				{"RH_bullb", 100, "true", ""},
+				{"KA_SCAR_L_Black_AFG", 100, "true", ""},
+				{"arifle_M8_F", 100, "true", ""},
+				{"bnae_mk1_virtual", 100, "true", ""},
+				{"CSW_M500", 100, "true", ""},
+				{"HandGrenade_Stone",100,"true","Flashbang"}
 			};
 
 			magazines[] = {
@@ -400,11 +441,11 @@ class maverick_weaponshop_cfg {
 				{ "RH_cmore", 70, "true", ""},
 				{ "RH_eotech553", 70, "true", ""},
 				{ "acc_pointer_IR", 70, "true", ""},
-				{ "RH_compm4s", 170, "true", ""},
-				{ "RH_compM2", 170, "true", ""},
-				{ "SCAR_14_Inches_Barrel_Flash_Hider", 270, "true", ""},
-				{ "RH_eothhs1", 170, "true", ""},
-				{ "KA_SCAR_H_Laser_Black_GREEN",500,"true",""}
+				{ "RH_compm4s", 100, "true", ""},
+				{ "RH_compM2", 100, "true", ""},
+				{ "SCAR_14_Inches_Barrel_Flash_Hider", 100, "true", ""},
+				{ "RH_eothhs1", 100, "true", ""},
+				{ "KA_SCAR_H_Laser_Black_GREEN",100,"true",""}
 
 			};
 	   };

@@ -561,7 +561,6 @@ class CarShops {
            conditions = "";
            vehicles[] = {
 			   { "red_cvpi_06_p_Patrol", "" },
-               { "red_f350_08_p_Patrol", "" },
                { "red_taurus_10_p_Patrol", "" },
                { "red_kawasaki_10_p_Patrol", "" },
                { "red_charger_12_p_Patrol", "" },
@@ -1163,58 +1162,58 @@ class CarShops {
 	   class EC635_EMS { vItemSpace = 70; conditions = ""; price = 9000; textures[] = { }; };
 	   
 	   //Cop Car
-	   class red_cvpi_06_p_Patrol { vItemSpace = 75; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_f350_08_p_Patrol { vItemSpace = 120; conditions = ""; price = 5000; textures[] = { }; };
-	   class red_taurus_10_p_Patrol { vItemSpace = 70; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_kawasaki_10_p_Patrol { vItemSpace = 40; conditions = ""; price = 2500; textures[] = { }; };
-	   class red_charger_12_p_Patrol { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_tahoe_13_p_Patrol { vItemSpace = 160; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_suburban_15_p_Patrol { vItemSpace = 160; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_charger_15_p_Patrol { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_explorer_16_p_Patrol { vItemSpace = 70; conditions = ""; price = 4500; textures[] = { }; };
+	   class red_cvpi_06_p_Patrol { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_f350_08_p_Patrol { vItemSpace = 120; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_taurus_10_p_Patrol { vItemSpace = 70; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_kawasaki_10_p_Patrol { vItemSpace = 40; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_charger_12_p_Patrol { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_tahoe_13_p_Patrol { vItemSpace = 160; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_suburban_15_p_Patrol { vItemSpace = 160; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_charger_15_p_Patrol { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_explorer_16_p_Patrol { vItemSpace = 70; conditions = ""; price = 1000; textures[] = { }; };
 	   
 	   //Cop Trooper
 	   
 	   
 	   //Cop Doc
-	   class red_savana_04_p_prison { vItemSpace = 70; conditions = ""; price = 1500; textures[] = { }; };
-	   class red_taurus_10_p_DOC { vItemSpace = 70; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_tahoe_13_p_DOC { vItemSpace = 130; conditions = ""; price = 4500; textures[] = { }; };
+	   class red_savana_04_p_prison { vItemSpace = 70; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_taurus_10_p_DOC { vItemSpace = 70; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_tahoe_13_p_DOC { vItemSpace = 130; conditions = ""; price = 1000; textures[] = { }; };
 	   
 	   //Cop Undercover
-	   class red_silverado_10_p_f_black { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_panamera_10_p_u_aqua { vItemSpace = 30; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_panamera_10_p_u_bule { vItemSpace = 30; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_panamera_10_p_u_darkred { vItemSpace = 30; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_panamera_10_p_u_pink { vItemSpace = 30; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_panamera_10_p_u_red { vItemSpace = 30; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_camaro_12_p_u_aqua { vItemSpace = 40; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_camaro_12_p_u_black { vItemSpace = 40; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_camaro_12_p_u_orange { vItemSpace = 40; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_camaro_12_p_u_yellow { vItemSpace = 40; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_tahoe_13_p_undercover { vItemSpace = 100; conditions = ""; price = 4500; textures[] = { }; };
-	   class red_challenger_15_p_u_blue { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_challenger_15_p_u_darkblue { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_challenger_15_p_u_darkgreen { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_challenger_15_p_u_orange { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_challenger_15_p_u_purple { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_challenger_15_p_u_yellow { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_challenger_15_p_u_white { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
+	   class red_silverado_10_p_f_black { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_panamera_10_p_u_aqua { vItemSpace = 30; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_panamera_10_p_u_bule { vItemSpace = 30; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_panamera_10_p_u_darkred { vItemSpace = 30; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_panamera_10_p_u_pink { vItemSpace = 30; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_panamera_10_p_u_red { vItemSpace = 30; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_camaro_12_p_u_aqua { vItemSpace = 40; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_camaro_12_p_u_black { vItemSpace = 40; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_camaro_12_p_u_orange { vItemSpace = 40; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_camaro_12_p_u_yellow { vItemSpace = 40; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_tahoe_13_p_undercover { vItemSpace = 100; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_challenger_15_p_u_blue { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_challenger_15_p_u_darkblue { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_challenger_15_p_u_darkgreen { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_challenger_15_p_u_orange { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_challenger_15_p_u_purple { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_challenger_15_p_u_yellow { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_challenger_15_p_u_white { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
 	   
 	   
 	   //Cop Swat
-	   class red_charger_12_p_Sert { vItemSpace = 75; conditions = ""; price = 3500; textures[] = { }; };
-	   class red_suburban_15_p_Sert { vItemSpace = 160; conditions = ""; price = 4500; textures[] = { }; };
+	   class red_charger_12_p_Sert { vItemSpace = 75; conditions = ""; price = 1000; textures[] = { }; };
+	   class red_suburban_15_p_Sert { vItemSpace = 160; conditions = ""; price = 1000; textures[] = { }; };
 	   
 	   //Cop Command
 	   
 	   
 	   //Cop Boat
-	   class C_Boat_Civil_01_police_F { vItemSpace = 190; conditions = ""; price = 1400; textures[] = { }; };
+	   class C_Boat_Civil_01_police_F { vItemSpace = 190; conditions = ""; price = 1000; textures[] = { }; };
 	   
 	   //Cop Air
-	   class I_Heli_light_03_unarmed_F { vItemSpace = 230; conditions = ""; price = 267000; textures[] = { }; };
-	   class EC635_Unarmed { vItemSpace = 110; conditions = ""; price = 30000; textures[] = { }; };
+	   class I_Heli_light_03_unarmed_F { vItemSpace = 230; conditions = ""; price = 10000; textures[] = { }; };
+	   class EC635_Unarmed { vItemSpace = 110; conditions = ""; price = 10000; textures[] = { }; };
 	   
 	   
        /*

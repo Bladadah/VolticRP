@@ -56,12 +56,8 @@ _Btn9 = _display displayCtrl Btn9;
 _Btn10 = _display displayCtrl Btn10;
 life_pInact_curTarget = _curTarget;
 
-//--- Check if they are restained
-if ( player getVariable [ "isEscorting", false ] ) then 
-{
-    { 
-        _x ctrlEnable false; 
-    } forEach [ _Btn1, _Btn3, _Btn4, _Btn6, _Btn7, _Btn8, _Btn10 ];
+if (player getVariable ["isEscorting",false]) then {
+	{ _x ctrlEnable false; } forEach [_Btn1,_Btn3,_Btn4,_Btn5,_Btn6,_Btn7,_Btn8,_Btn9,_Btn10];
 };
 	
 //Set Unrestrain Button
